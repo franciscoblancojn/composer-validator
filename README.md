@@ -1,7 +1,7 @@
 # FValidator - PHP Validation Library
 
 [![PHP Version](https://img.shields.io/badge/PHP-%3E%3D7.4-blue.svg)](https://php.net/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 Una librería de validación flexible y fácil de usar para PHP que permite definir reglas de validación de forma fluida y encadenable.
 
@@ -313,7 +313,7 @@ Las contribuciones son bienvenidas! Por favor:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT.
 
 ## Autor
 
