@@ -1,0 +1,19 @@
+{
+  "name": "franciscoblancojn-composer-validator",
+  "description": "Libreria para validar datos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "push-tag": "git tag v1.0.0 && git push origin v1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscoblancojn/composer-validator.git"
+  },
+  "author": "franciscoblancojn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscoblancojn/composer-validator/issues"
+  },
+  "homepage": "https://github.com/franciscoblancojn/composer-validator#readme"
+}

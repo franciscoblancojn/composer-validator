@@ -1,0 +1,12 @@
+{
+    "name": "franciscoblancojn/composer-validator",
+    "description": "Libreria para validar datos",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "franciscoblancojn\\validator\\": "src/"
+        }
+    },
+    "require": {}
+}
