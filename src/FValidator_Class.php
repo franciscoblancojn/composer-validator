@@ -286,19 +286,22 @@ class FValidator_Class
         try {
             $this->data = $data;
             $this->onRequired();
-            $this->onString();
-            $this->onNumber();
-            $this->onBoolean();
-            $this->onArray();
-            $this->onObject();
-            $this->onDate();
-            $this->onEmail();
-            $this->onMin();
-            $this->onMax();
-            $this->onEqual();
-            $this->onLength();
-            $this->onRegex();
-            $this->onEnum();
+
+            if (!empty($this->data)) {
+                $this->onString();
+                $this->onNumber();
+                $this->onBoolean();
+                $this->onArray();
+                $this->onObject();
+                $this->onDate();
+                $this->onEmail();
+                $this->onMin();
+                $this->onMax();
+                $this->onEqual();
+                $this->onLength();
+                $this->onRegex();
+                $this->onEnum();
+            }
 
             return true;
         } catch (Exception $e) {
