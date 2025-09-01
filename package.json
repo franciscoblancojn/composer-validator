@@ -1,10 +1,10 @@
 {
   "name": "franciscoblancojn-composer-validator",
   "description": "Libreria para validar datos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "push-tag": "git tag v1.0.1 && git push origin v1.0.1"
+    "push-tag": "git tag v1.0.2 && git push origin v1.0.2"
   },
   "repository": {
     "type": "git",
